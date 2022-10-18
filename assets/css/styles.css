@@ -680,6 +680,81 @@ img {
     align-items: center;
     margin-bottom: 30px;
 }
+/* news */
+.news-con {
+    height: 535px;
+}
+.news-con .row,
+.news-con .row .col,
+.post-right {
+    height: 100%;
+    padding: 5px;
+}
+.news-row {
+    justify-content: center;
+    display: flex;
+}
+.news-col {
+    padding: 0px;
+}
+.post-right {
+    position: relative;
+}
+.post-left {
+    position: relative;
+    height: 100%;
+}
+.post-left-bottom {
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.top-post-left,
+.bottom-post-left {
+    height: 50%;
+}
+.top-post-left {
+    padding-bottom: 5px;
+}
+.bottom-post-left {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    padding-bottom: 5px;
+}
+.img-cover {
+    height: 100%;
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.desc-post-right {
+    position: absolute;
+    bottom: 0px;
+    padding: 20px 20px;
+    background-color: #00000080;
+    width: -webkit-fill-available;
+    margin: 5px 5px 5px 0px;
+}
+.desc-post-right a {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+.desc-post-left {
+    position: absolute;
+    bottom: 0px;
+    padding: 20px 20px;
+    background-color: #00000080;
+    width: -webkit-fill-available;
+}
+.desc-post-left a {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .navbar-sec {
         height: 53px;
